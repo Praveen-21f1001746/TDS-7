@@ -6,8 +6,8 @@ b=st.number_input("Enter Second Number:")
 c=st.number_input("Enter Third Number:")
 
 if (a>b) and (a>c):
-  st.write("First Number is Largest")
+  st.write(a:"First Number is Largest")
 elif (b>a) and (b>c):
-  st.write("Second Number is Largest")
+  st.write(b:"Second Number is Largest")
 else:
-  st.write("Third Number is Largest")
+  st.write(c:"Third Number is Largest")
